@@ -1,5 +1,8 @@
 Modern Ken Burns Galéria
+
+
 Ez egy könnyen implementálható, reszponzív kép-galéria, amely folyamatos közelítő (Ken Burns) animációval és elegáns, "glassmorphism" stílusú feliratokkal teszi látványossá a weboldalt.
+
 
 Jellemzők
 Ken Burns Effekt: Automatikus, lassú zoom animáció az aktív képeken a dinamikus látványért.
@@ -23,14 +26,6 @@ Testreszabás
 Képek és Linkek cseréje
 A galéria elemeit a gallery-slide osztályú div-ekben találod:
 
-HTML
-
-<div class="gallery-slide" onclick="window.location.href='IDE_JÖN_A_LINK'">
-    <div class="zoom-wrapper">
-        <img src="KEP_URL_CIME" alt="Leírás">
-    </div>
-    <div class="caption">FELIRAT SZÖVEGE</div>
-</div>
 Animáció sebessége
 A JS kód végén az 8000 (ez 8 másodperc) érték átírásával módosíthatod az automata lapozást:
 
